@@ -11,11 +11,15 @@
   - [Deployment](#deployment)
     - [Prerequisites](#prerequisites-1)
     - [Running](#running)
+
+
 ## About
 
 This is a docker image for the [Xmrig](https://github.com/xmrig/xmrig) miner. It is based on the [Ubuntu](https://hub.docker.com/_/ubuntu) image. It is meant to be easily deployed on a client in just seconds.
 
 ## Build
+
+You need to build the image on every Architecture you want to run it on. Using images from other architectures will lead to errors when running the container.
 
 ### Prerequisites
 
